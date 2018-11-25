@@ -11,7 +11,7 @@ common_includes += $(display_top)/libhdmi
 common_includes += $(display_top)/libqservice
 common_includes += $(display_top)/include
 
-common_header_export_path := qcom/display
+common_header_export_path := qcom/display-$(TARGET_QCOM_DISPLAY_VARIANT)
 
 #Common libraries external to display HAL
 common_libs := liblog libutils libcutils libhardware
